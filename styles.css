@@ -2,7 +2,7 @@
 
 :root
 {
-    --primary-color: #10B981;
+    --primary-color: #047857;
 }
 
 body
@@ -64,6 +64,7 @@ button
     border: none;
     font-family: 'Architects Daughter', cursive;
     margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .op
