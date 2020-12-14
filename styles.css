@@ -14,7 +14,7 @@ body
 .navigation
 {
     background-color: var(--primary-color);
-    color: #EEF2FF;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
