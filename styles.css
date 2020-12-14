@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root
+{
+    --primary-color: #10B981;
+}
+
+body
+{
+    font-family: 'Architects Daughter', cursive;
+    margin: 0px;
+}
+
+.navigation
+{
+    background-color: var(--primary-color);
+    color: #EEF2FF;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navigation h1
+{
+    font-size: xx-large;
+}
+
+.hero
+{
+    padding: 2rem;
+}
+
+.hero .img-hero
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}    
+
+main
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+textarea
+{
+    width : 100%;
+    min-height : 20vh;
+    display : block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-size: large;
+    color:#EEF2FF;
+}
+
+button
+{
+    background-color: var(--primary-color);
+    color: #EEF2FF;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: 'Architects Daughter', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.op
+{
+    font-size : x-large;
+}
+
+#output
+{
+    border: 1px solid black;
+    min-height: 10vh;
+    max-height: 20vh;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: x-large;
+    overflow: scroll;
+    margin: auto;
+}
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: #EEF2FF;
+    margin-top: 2rem;
+}
+
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.footer .footer-para
+{
+    max-width: 600px;
+    font-size: x-large;
+    margin: auto;
+}
