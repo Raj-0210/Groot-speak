@@ -45,7 +45,7 @@ main
 
 textarea
 {
-    color:var(--font-color);
+    color:black;
     width : 100%;
     min-height : 20vh;
     display : block;
